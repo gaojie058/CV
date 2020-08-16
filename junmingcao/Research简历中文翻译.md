@@ -10,9 +10,9 @@
     - 结果：与最新的缺陷定位技术相比，BugPecker显著改进了MAP值。 
 - CocoQA | 面向编码规范的问答系统
   - 将自然语言语句解析成SPARQL语句，通过子图匹配从编码规范知识图谱中检索得到相关的节点与关系。
-  - 将编码规范当做段落，利用机器阅读理解技术(Match-LSTM模型)从中抽取出
-  - 使用logsitic classifier来对上面两种的候选结果进行排序
-  - 实现了CocoQA为一个Intellij IDEA的插件，并也支持通过Web接口访问。
+  - 将编码规范当做段落，利用机器阅读理解技术(Match-LSTM模型)从中抽取出相关的编码规范。
+  - 使用logsitic classifier来对上面两种的候选结果进行排序并返回。
+  - 将CocoQA实现为一个Intellij IDEA的插件，并也支持通过Web接口访问。
 - DeepEye | 鉴黄与暴恐识别系统
   - 后台开发实习生
   - 通过Nginx模块开发的方式将机器学习模型部署为高性能的Web服务。 
